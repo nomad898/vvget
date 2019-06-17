@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vvget", "vvget\vvget.csproj", "{525EDB58-36EB-465A-9E14-EF622114AAD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vvget.Library", "vvget.Library\vvget.Library.csproj", "{28F1EDC8-DF79-40AE-A904-FAB16FC308BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{525EDB58-36EB-465A-9E14-EF622114AAD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{525EDB58-36EB-465A-9E14-EF622114AAD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{525EDB58-36EB-465A-9E14-EF622114AAD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{525EDB58-36EB-465A-9E14-EF622114AAD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28F1EDC8-DF79-40AE-A904-FAB16FC308BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28F1EDC8-DF79-40AE-A904-FAB16FC308BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28F1EDC8-DF79-40AE-A904-FAB16FC308BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28F1EDC8-DF79-40AE-A904-FAB16FC308BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE7922DF-2250-4690-9A1E-83C4061B428B}
+	EndGlobalSection
+EndGlobal
