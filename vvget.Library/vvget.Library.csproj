@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="Crawler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebElement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

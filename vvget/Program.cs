@@ -12,9 +12,13 @@ namespace vvget
     {
         static void Main(string[] args)
         {
-            Crawler crawler = new Crawler(new HttpClient());
-            var result =  crawler.ToTheSite(new Uri(@"http://kino.kz/"));
-            Console.WriteLine(result);
+            Crawler crawler = new Crawler();
+            var result =  crawler.ToTheSite(new Uri(@"http://kino.kz/"), 1);
+            foreach (var item in result)
+            {
+                Console.WriteLine(item.Key);
+                Console.WriteLine(item.Value);
+            };
             Console.ReadKey(true);
         }
     }
