@@ -12,14 +12,17 @@ namespace vvget
     {
         static void Main(string[] args)
         {
-            Crawler crawler = new Crawler();
-            var result =  crawler.ToTheSite(new Uri(@"http://kino.kz/"), 1);
-            foreach (var item in result)
+            Crawler crawler = new Crawler()
             {
-                Console.WriteLine(item.Key);
-                Console.WriteLine(item.Value);
+                IsVerbose = true
             };
+            crawler.Downloaded += Show;
+            crawler.ToTheSite(new Uri(@"http://kino.kz/"), 1);
             Console.ReadKey(true);
+        }
+        static void Show(object sender, CrawlerEventArgs e)
+        {
+            Console.WriteLine(e.Message);
         }
     }
 }

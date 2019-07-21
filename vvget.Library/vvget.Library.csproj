@@ -44,8 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ContentTypes.cs" />
     <Compile Include="Crawler.cs" />
+    <Compile Include="CrawlerEventArgs.cs" />
+    <Compile Include="ExtentionHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebContent.cs" />
     <Compile Include="WebElement.cs" />
   </ItemGroup>
   <ItemGroup>
