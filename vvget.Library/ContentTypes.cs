@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace vvget.Library
 {
-    internal class ContentTypes
+    internal static class ContentTypes
     {
         public const string JavaScriptXHeader = "application/x-javascript";
         public const string JavaScriptHeader = "application/javascript";
