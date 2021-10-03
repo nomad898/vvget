@@ -2,7 +2,7 @@
 
 namespace vvget.Shared
 {
-    public class Class1
+    public class FileExtention
     {
     }
 }
